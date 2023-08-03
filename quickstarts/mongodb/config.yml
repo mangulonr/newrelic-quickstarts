@@ -1,12 +1,17 @@
 id: 6183e12f-a398-48e6-8431-a48db03e4443
 slug: mongodb
-title: MongoDB
+title: MongoDB (legacy)
 description: |
+
+  ## IMPORTANT!
+   This legacy integration is set to reach end-of-life in 2024: we'll add a specific EOL date when we know it. 
+   We recommend using our newer [MongoDB integration](https://docs.newrelic.com/docs/infrastructure/host-integrations/host-integrations-list/mongodb/mongodb-monitoring-integration-new/) and [Quickstart](https://newrelic.com/instant-observability/mongodb-prometheus). 
+
   ## MongoDB Monitoring
 
   MongoDB enables the unlimited virtual scaling of applications. Utilities like mongostat and mongotop offer immediate results but fail to provide insights into trends in a highly graphical visual dashboard. MongoDB dashboards provide insights into key metrics like RAM usage, operations per second, page fault, disk size, lock %, and app and database performance at a glance. 
 
-  Avoid slow queries with  proper indexes that impact performance. Instantly monitor your entire MongoDB database with our instant observability kit or the MongoDB free monitoring tool.  
+  Avoid slow queries with proper indexes that impact performance. Instantly monitor your entire MongoDB database with our instant observability kit or the MongoDB free monitoring tool.  
 
   The critical differences between MongoDB free monitoring and monitoring MongoDB with New Relic’s instant observability quickstart are efficiency, usability, scope, and cost. MongoDB free monitoring focuses on standalone instances and replica sets. Data collected on disk utilization, memory, and operation execution times are uploaded periodically. 
 
